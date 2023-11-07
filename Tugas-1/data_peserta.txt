@@ -1,0 +1,7 @@
+Data Peserta Bootcamp Digital Skill Devops
+1. Nama: Aditya Aprianto
+2. Email: aditbest5@gmail.com
+3. Sistem Operasi yang digunakan: windows
+4. Akun Gitlab/Github: aditbest5
+5. Akun Telegram: adityaaprianto97
+6. Bahasa Pemrograman/Stack Yang dikuasai: Javascript, Python

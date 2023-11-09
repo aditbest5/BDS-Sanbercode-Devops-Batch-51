@@ -63,6 +63,21 @@
   .container_describe-animation:hover > i {
     animation: rotate 2s infinite;
   }
+  .container-wrapping__card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+  .container-wrapping__card > img {
+    height: 10rem;
+    width: 10rem;
+    transition: transform 0.3s; /* Menambahkan efek transisi untuk transformasi */
+  }
+
+  .container-wrapping__card > img:hover {
+    transform: scale(1.2); /* Memperbesar gambar saat dihover */
+  }
+
   @keyframes rotate {
     0% {
       transform: rotate(-45deg);
@@ -71,8 +86,19 @@
       transform: rotate(45deg);
     }
   }
+
+  .container-history {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container-history__motto {
+    padding: 2rem 0 5rem 0;
+  }
   .container_describe-info {
-    padding: 1% 0 5rem 8rem;
+    margin: 0 5rem 0 5rem;
+  }
+  .container_describe-info__card {
+    padding: 1rem 0 10rem 10rem;
   }
   .container_hero-headline {
     margin: 0 4rem;
@@ -89,5 +115,12 @@
   }
   footer {
     margin-bottom: 4rem;
+    margin-top: 5rem;
+  }
+
+  th,
+  td {
+    padding: 0.2rem;
+    text-align: center;
   }
 }

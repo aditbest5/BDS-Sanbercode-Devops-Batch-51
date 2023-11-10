@@ -1,0 +1,35 @@
+1. Apa itu TCP?
+TCP/IP atau Transmission Control Protocol/Internet Protocol adalah suatu protokol komunikasi dalam jaringan yang memuat informasi antar komunikatornya.
+TCP merupakan standar komunikasi yang memungkinkan program/aplikasi dan perangkat komputasi untuk bertukar pesan dalam jaringan. 
+
+2.Coba jelaskan pengiriman data menggunakan TCP!
+Pengiriman data menggunakan TCP (Transmission Control Protocol) melibatkan beberapa langkah:
+- Inisiasi Koneksi (Three-way Handshake):  Klien mengirimkan permintaan koneksi (SYN) ke server. Server merespons dengan persetujuan koneksi (SYN-ACK). Klien mengirimkan konfirmasi (ACK), dan koneksi dibuka.
+- Pengiriman Data: Data dibagi menjadi segmen dan dikirimkan. Setiap segmen memiliki nomor urut untuk memastikan urutan yang benar.
+- Pengakuan (Acknowledgment): Penerima mengirimkan pengakuan (ACK) untuk setiap segmen yang diterima. Jika pengirim tidak menerima ACK, data akan dikirim ulang.
+- Penutupan Koneksi: Klien atau server dapat mengirimkan permintaan penutupan (FIN) ketika selesai. Penerima merespons dengan ACK dan kemudian dapat mengirim FIN sendiri. Koneksi ditutup setelah pertukaran FIN dan ACK.
+
+3. Apa itu IP Address?
+IP Address (Internet Protocol Address) adalah alamat numerik yang diberikan kepada setiap perangkat yang terhubung ke jaringan komputer yang menggunakan protokol Internet Protocol untuk komunikasi data. 
+IP Address memungkinkan perangkat tersebut diidentifikasi dan berkomunikasi satu sama lain di jaringan.
+
+4.Kenapa setiap device yang connect ke internet harus punya IP Address?
+IP Address (Internet Protocol Address) diperlukan untuk mengidentifikasi dan mengarahkan perangkat di internet. 
+Ini berfungsi sebagai alamat unik yang memungkinkan perangkat berkomunikasi, memfasilitasi rute data melalui jaringan, dan mendukung layanan internet. 
+IP Address juga penting untuk pengelolaan jaringan, keamanan, dan pengaturan layanan internet. Dengan IP Address, setiap perangkat dapat diidentifikasi dengan cara yang unik dan dapat berpartisipasi dalam pertukaran data di seluruh jaringan global.
+
+5.Apakah NAT sama dengan Gateway?
+Tidak. Network Address Translation (NAT) dan Gateway adalah konsep yang berbeda dalam konteks jaringan komputer.
+Network Address Translation (NAT) adalah teknik yang mengonversi alamat IP di dalam paket data saat melintasi dua jaringan, memungkinkan beberapa perangkat di jaringan lokal menggunakan satu alamat IP publik untuk terhubung ke internet. 
+Sebaliknya, gateway adalah perangkat atau sistem yang berfungsi sebagai pintu gerbang antara dua jaringan, memfasilitasi lalu lintas data di antara keduanya. 
+
+6.Apa perbedaan IP Public dan IP Internal?
+Berikut perbedaan IP Public dan IP Internal:
+IP Public:
+-Terlihat di internet dan unik untuk setiap perangkat di internet.
+-Digunakan untuk identifikasi dan komunikasi dengan perangkat di luar jaringan lokal.
+
+IP Internal:
+-Terlihat hanya di dalam jaringan lokal.
+-Digunakan untuk identifikasi perangkat di dalam jaringan lokal dan tidak dapat diakses langsung dari internet.
+-Seringkali menggunakan alamat dari rentang khusus, seperti 192.168.x.x atau 10.x.x.x.
